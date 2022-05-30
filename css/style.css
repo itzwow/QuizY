@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    background-color: #218380;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.container{
+     
+     border-radius: 10px;
+     box-shadow: 0 0 10px 5px rgba(100,100,100,0.1);
+     overflow: hidden;
+     width: 600px;
+     max-width: 75%;
+     
+     
+}
+
+
+.quiz-home{
+    padding: 2rem;
+}
+
+h2{
+    margin: 0;
+    padding: 0.8rem 0.5rem;
+}
+.text{
+     margin: 0;
+     padding: 0.8rem 0.5rem;
+     font-size: 14px;
+     font-weight: normal;
+     
+ }
+
+ .btn{
+     text-decoration: none;
+     padding: 10px;
+     background-color: #218380;
+     color: #fff;
+     border: none;
+     margin-left: 0.4rem;
+     border-radius: 5px;
+
+ }
+
+ a{
+     text-decoration: none;
+    background-color: #218380;
+     color: #fff;
+ }
+
+/* <---------------- Game  styling ---------------> */
+ 
+ .choice-container{
+     display: flex;
+     margin-bottom: 0.5rem;
+     width: 100%;
+     background-color: #218380;
+     color: #fff;
+     border-radius: 5px;
+
+ }
+
+.choice-container:hover{
+    cursor: pointer;
+}
+ .choice-text{
+     padding: 0.7rem;
+     width: 100%;
+     
+ }
+
+.marks{
+    margin-top: 10px;
+    border-top: 2px solid rgb(107, 107, 107);
+}
+.marks p{
+    
+    margin-top: 10px;
+}
+
+
+
+/* endscreen styling */
+input{
+    padding:5px;
+    margin:1rem;
+    width: 50%;
+};
+
+.username-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+ 
+ 
+
+

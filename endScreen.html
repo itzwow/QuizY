@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script src="./scripts/endscreen.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <body>
+    <header>
+        <a id=leaderboard href="highScore.html">View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a>
+        <p id="timer">Time: </p> 
+
+    </header>
+    
+    <main>
+    
+        <div class="container">
+            <div id="home" class="quiz-home">
+        <h2 >All Done!</h2>
+        <p class ="text" id="finalScore"></p>
+        <div class="username-input" style="display:flex">
+            <p class ="text">Enter initials:</p>
+            <input type="text" name="username" id="username" autocomplete="off">
+            <button type="submit" id="saveScoreBtn" class="btn" onclick="saveHighScore(event)" disabled>Submit</button>
+        </div>
+        
+ <!-- <button class ="btn" type="submit" ><a href="game.html">Play Again</a></button>
+ <button class ="btn" type="submit" ><a href="index.html">Go Home</a></button> -->
+ </div>
+ </div>
+ </main>
+    
+</body>
+</html>
