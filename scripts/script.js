@@ -50,6 +50,7 @@ let questions = [
 
 
 const question = document.getElementById('question');
+console.log(document.getElementsByClassName("choice-text"))
 const choices = Array.from(document.getElementsByClassName("choice-text"))
 const count = document.getElementById('countdownTimer');
 var solve = true;
@@ -77,7 +78,7 @@ setInterval(()=>{
 
 
 
-console.log(choices);
+// console.log(choices);
 
 
 
@@ -99,7 +100,6 @@ startCountdown();
 
 
 let currentQuestion = {};
-
 let acceptAnswers = true;
 let score = 0;
 let questionCounter = 0;
@@ -140,9 +140,9 @@ choices.forEach(choice =>{
         const selectedAnswer = e.target
         const answer = selectedAnswer.textContent
        
-        console.log(selectedAnswer)
-        console.log(answer)
-        console.log(answer===questions[questionCounter].answer);
+        // console.log(selectedAnswer)
+        // console.log(answer)
+        // console.log(answer===questions[questionCounter].answer);
         
         if(answer===questions[questionCounter].answer &&questionCounter <= questions.length){
             marks.innerText = "Correct!"
